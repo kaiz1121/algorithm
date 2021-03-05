@@ -36,7 +36,7 @@ public class GrumpyBookstoreOwner {
         Solution solution = new GrumpyBookstoreOwner().new Solution();
         int[] customers = {1,0,1,2,1,1,7,5};
         int[] grumpy = {0,1,0,1,0,1,0,1};
-        System.out.println(solution.maxSatisfied(customers, grumpy, 3));
+        System.out.println(solution.maxSatisfied(customers, grumpy, 3 ));
     }
     //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
